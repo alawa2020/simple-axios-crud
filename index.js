@@ -41,3 +41,36 @@ const getAll = async ()=>{
 }
 //READ
 d.addEventListener("DOMContentLoaded",getAll());
+
+//CREATE and UPDATE
+d.addEventListener("submit",async e=>{
+    if(e.target === $crudForm){
+        e.preventDefault();
+
+        //CREATE
+        if(!e.target.id.value){
+            try {
+                let options = {
+                    method:"POST",
+                    headers:{
+                        "Content-type":"application/json;charset=utf-8"
+                    },
+                    data:JSON.stringify({
+                        nombre:e.target.nombre.value,
+                        posicion:e.target.posicion.value,
+                        equipo:e.target.equipo.value
+                    })
+                }
+                let res = await axios("http://localhost:5555/doteros",options);
+                
+            } catch (err) {
+                console.log(err)
+                
+            }
+
+        }else{
+            //UPDATE
+        }
+
+    }
+})
