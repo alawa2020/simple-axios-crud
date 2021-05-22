@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my_style.css">
+    <title>CRUD AXIOS ASYNC</title>
+</head>
+<body>
+
+    <header> <h1> Los Mejores Futbólistas</h1></header>
+    <main>
+        <!-- FORMULARIO -->
+        <section>
+            <h2 class="crud-title">Agregar Futbólista</h2>
+            <form class="crud-form">
+                <input type="text" name="nombre" placeholder="Ingrese Nombre" >
+                <br>
+                <input type="text" name="equipo" placeholder="Ingrese el Equipo">
+                <br>
+                <input type="text" name="posicion" placeholder="Ingrese la Posición">
+                <br>
+                <input id="form-button" type="submit" value="enviar">
+                <input type="hidden" name="id">
+            </form>
+        </section>
+
+        <!-- LISTA -->
+        <section>
+            <h2>Lista de Jugadores</h2>
+            <div class="div-lista">
+                <table class="crud-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Jugador</th>
+                            <th>Equipo</th>
+                            <th>Posición</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <!-- TEMPLATE -->
+
+    <template class="crud-template">
+        <tr>
+            <td id="td-id"></td>
+            <td id="td-name"></td>
+            <td id="td-team"></td>
+            <td id="td-position"></td>
+            <td >
+                <button class="edit-button"></button>
+                <button class="delete-button"></button>
+            </td>
+
+        </tr>
+    </template>
+    
+    
+</body>
+</html>

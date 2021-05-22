@@ -1,0 +1,66 @@
+{
+    "futbolistas":[
+        {
+            "id":1,
+            "nombre":"Messi",
+            "posicion":"delantero",
+            "equipo":"Barcelona"
+        },
+        {
+            "id":2,
+            "nombre":"Cristiano Ronaldo",
+            "posicion":"delantero",
+            "equipo":"Juventus"
+        },
+        {
+            "id":3,
+            "nombre":"Neymar",
+            "posicion":"delantero",
+            "equipo":"PSG"
+        },
+        {
+            "id":4,
+            "nombre":"Mbappe",
+            "posicion":"delantero",
+            "equipo":"PSG"
+        },
+        {
+            "id":5,
+            "nombre":"Benzema",
+            "posicion":"delantero",
+            "equipo":"real Madrid"
+        }
+    ],
+    "doteros":[
+        {
+            "id":1,
+            "nombre":"Hector",
+            "posicion":"Hard Carry",
+            "equipo":"Beastcoast"
+        },
+        {
+            "id":1,
+            "nombre":"Matthew",
+            "posicion":"Support ",
+            "equipo":"NoPing"
+        },
+        {
+            "id":1,
+            "nombre":"LeoStyle",
+            "posicion":"Mid",
+            "equipo":"Thunder Predator"
+        },
+        {
+            "id":1,
+            "nombre":"Arteezy",
+            "posicion":"Hard Carry",
+            "equipo":"Evil Geniuses"
+        },
+        {
+            "id":5,
+            "nombre":"Ana",
+            "posicion":"Hard Carry",
+            "equipo":"OG"
+        }
+    ]
+}
