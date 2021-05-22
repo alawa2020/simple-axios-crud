@@ -39,19 +39,19 @@
             "equipo":"Beastcoast"
         },
         {
-            "id":1,
+            "id":2,
             "nombre":"Matthew",
             "posicion":"Support ",
             "equipo":"NoPing"
         },
         {
-            "id":1,
+            "id":3,
             "nombre":"LeoStyle",
             "posicion":"Mid",
             "equipo":"Thunder Predator"
         },
         {
-            "id":1,
+            "id":4,
             "nombre":"Arteezy",
             "posicion":"Hard Carry",
             "equipo":"Evil Geniuses"

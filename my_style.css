@@ -18,6 +18,10 @@ table{
     width:80%;
     margin-left: auto;
     margin-right:auto;
+    background-color: rgb(255, 146, 67);
+}
+thead{
+    background-color: rgb(255, 106, 0);
 }
 
 input[type=text]{
@@ -56,4 +60,12 @@ input[type=submit]{
 td,th{
     border:1px solid black;
     padding: 10px;
+    text-align: center;
+}
+
+.edit-button{
+    background-color: greenyellow;
+}
+.delete-button{
+    background-color: rgb(255, 128, 128);
 }
