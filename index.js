@@ -106,4 +106,22 @@ d.addEventListener("click",async e=>{
         $crudForm.posicion.value = e.target.dataset.position;
         $crudForm.id.value = e.target.dataset.id;
     }
+
+    if(e.target.matches(".delete-button")){
+        let isDelete = confirm(`¿Eliminar al jugador ${e.target.dataset.id}?`)
+        if(isDelete){
+            try {
+                let options = {
+                    method:"DELETE",
+                    headers:{
+                        "Content-type":"application/json;charset=utf-8"
+                    }
+                }
+                let res = axios(`http://localhost:5555/doteros/${e.target.dataset.id}`,options)
+            } catch (err) {
+                console.log(err)
+                
+            }
+        }
+    }
 })
