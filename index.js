@@ -70,7 +70,40 @@ d.addEventListener("submit",async e=>{
 
         }else{
             //UPDATE
+           
+            try {
+
+                let options ={
+                    method:"PUT",
+                    headers:{
+                        "Content-type":"application/json;charset=utf-8"
+                    },
+                    data:JSON.stringify({
+                        nombre:e.target.nombre.value,
+                        posicion:e.target.posicion.value,
+                        equipo:e.target.equipo.value
+                    })
+                }
+
+                let res = axios(`http://localhost:5555/doteros/${e.target.id.value}`,options)
+            } catch (err) {
+
+                console.log(err)
+                
+            }
         }
 
+    }
+});
+
+//UPDATE   and  DELETE
+d.addEventListener("click",async e=>{
+    if(e.target.matches(".edit-button")){
+        $crudTitle.textContent = `Actualizando al jugador ${e.target.dataset.id}`;
+        $crudForm.querySelector("#form-button").value = "Actualizar";
+        $crudForm.nombre.value = e.target.dataset.name;
+        $crudForm.equipo.value = e.target.dataset.team;
+        $crudForm.posicion.value = e.target.dataset.position;
+        $crudForm.id.value = e.target.dataset.id;
     }
 })

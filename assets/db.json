@@ -63,9 +63,9 @@
       "equipo": "OG"
     },
     {
-      "nombre": "a ",
-      "posicion": "asd",
-      "equipo": "as",
+      "nombre": "Minoz",
+      "posicion": "Hard Carry",
+      "equipo": "Thunder Predator",
       "id": 6
     },
     {
@@ -73,6 +73,30 @@
       "posicion": "Support",
       "equipo": "Beastcoast",
       "id": 7
+    },
+    {
+      "nombre": "Topson",
+      "posicion": "MID",
+      "equipo": "OG",
+      "id": 8
+    },
+    {
+      "nombre": "Topson",
+      "posicion": "Mid",
+      "equipo": "OG",
+      "id": 9
+    },
+    {
+      "nombre": "a s",
+      "posicion": "asds",
+      "equipo": "ass",
+      "id": 10
+    },
+    {
+      "nombre": "Papita",
+      "posicion": "Support",
+      "equipo": "Infamous",
+      "id": 11
     }
   ]
 }
