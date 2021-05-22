@@ -1,3 +1,59 @@
 body{
     background-color: rgb(112, 112, 112);
 }
+
+form{
+    padding:15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+    border: 2px solid rgb(0, 68, 255);
+    background-color: rgb(156, 156, 252);
+
+}
+
+
+table{
+    border-collapse: collapse;
+    width:80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-width: 0;
+    border-bottom:2px solid rgb(0, 75, 146);
+    outline:none;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: rgb(75, 35, 255);
+    font-size: 20px;
+}
+
+input[type=submit]{
+    background-color: orangered;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: block;
+
+    margin-left: auto;
+    margin-right:auto;
+    cursor:pointer;
+    
+}
+
+::placeholder{
+    color:#fff565;
+    font-weight: bold;
+}
+
+td,th{
+    border:1px solid black;
+    padding: 10px;
+}
